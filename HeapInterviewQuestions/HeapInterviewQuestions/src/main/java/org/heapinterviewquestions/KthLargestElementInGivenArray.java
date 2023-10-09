@@ -26,9 +26,7 @@ public class KthLargestElementInGivenArray {
                 minHeap.add(arr[i]);
             }
         }
-
         return minHeap.peek();
-
     }
 
     public static int KthLargestElementInGivenArrayUsingMaxHeap(int [] arr, int k){
@@ -87,7 +85,5 @@ public class KthLargestElementInGivenArray {
         }
 
     }
-
-
 
 }
